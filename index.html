@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+
+  <body style="background-color: #081b29">
+    <!-- Navbar -->
+    <nav  class="p-2 md:flex md:items-center md:justify-between">
+      <div class="flex justify-between items-center">
+        <span class="text-2xl font-[Poppins] cursor-pointer text-white ml-5">
+         <h3>Kinza Raza </h3>
+        </span>
+
+        <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+          <ion-icon
+            style="color: white"
+            name="menu"
+            onclick="Menu(this)"
+          ></ion-icon>
+        </span>
+      </div>
+
+      <ul 
+        style="top: auto; z-index: 9999; background-color: #081b29"
+        class="md:flex md:items-center z-[-1] md:z-auto md:static absolute text-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+      >
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-cyan-500 duration-500">HOME</a>
+        </li>
+        <!-- <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-cyan-500 duration-500"
+            >SERVICE</a
+          >
+        </li> -->
+        <li class="mx-4 my-6 md:my-0">
+          <a href="#About" class="text-xl hover:text-cyan-500 duration-500">ABOUT</a>
+        </li>
+        <li class="mx-4 my-6 md:my-0 mr-5">
+          <a href="#project" class="text-xl hover:text-cyan-500 duration-500"
+            >PROJECT</a
+          >
+        </li>
+        <!-- <li class="mx-4 my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-cyan-500 duration-500"
+            >BLOG'S</a
+          >
+        </li> -->
+
+        <!-- <button
+          class="bg-cyan-400 text-white font-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-cyan-500 rounded"
+        >
+          Get started
+        </button> -->
+        <h2 class=""></h2>
+      </ul>
+    </nav>
+    <!-- container one  -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div
+            class="flex justify-content items-center text-4xl mt-5"
+            style="align-items: center; justify-content: center"
+          >
+            <p class="pf">Hello 👋 I'm</p>
+            <section class="animation">
+              <div class="first text-uppercase"><div>Graphic Designer</div></div>
+              <div class="second text-uppercase"><div>Full-stack Developer</div></div>
+              <div class="third text-uppercase"><div>Content Writer</div></div>
+            </section>
+          </div>
+          <p class="text-center p-4">
+            I'm Kina Raza, a seasoned full-stack developer skilled in multiple
+            programming languages. With a passion for crafting seamless user
+            experiences, I specialize in both back-end functionality and
+            captivating UI/UX design. My mission is to bring innovation and
+            precision to every project, ensuring that technology not only
+            functions flawlessly but also delights users.
+          </p>
+          <div
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 1rem;
+            "
+          >
+            <a href="./Kinza's Resume-9.pdf"><button>Resume</button></a>
+           <a href="#myskill"><button class="ml-2">My Skills</button> </a> 
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 d-flex justify-content-center">
+          <div style="border-radius: 50%;
+          height: 67%;
+          width: 60%;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          overflow: hidden;">
+            <img style="object-fit: cover; height: 100%; width: auto;" src="./image.png"  class="img-fluid"  alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Container two -->
+    <div id="About" class="container mt-5">
+      <h1
+        style="font-size: xxx-large; font-weight: 900; color: white"
+      >
+        <span style="color: skyblue;">____</span>About me
+      </h1>
+      <p class="p-4 ml-5">
+        Hello, I'm Kina Raza, a passionate full-stack developer and creative
+        problem solver. With a love for turning ideas into reality through code,
+        I specialize in multiple programming languages, ensuring both the
+        functionality and aesthetics of digital projects. Beyond the screen, I
+        embrace the world of UI/UX design, striving to create seamless and
+        visually appealing user experiences. My journey in technology is fueled
+        by a commitment to continuous learning and a drive to contribute
+        innovative solutions to the ever-evolving digital landscape. Join me on
+        this exciting adventure at the intersection of technology and
+        creativity.
+      </p>
+    </div>
+    <!-- Container three -->
+    <div class="container mt-5">
+      <h1
+      style="font-size: xxx-large; font-weight: 900; color: white"
+    >
+    <span id="myskill" style="color: skyblue;">____</span>My Skills
+      </h1>
+      <div class="ag-format-container">
+        <div class="ag-courses_box">
+          <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+
+              <div class="ag-courses-item_title">
+               ASP .NET MVC || ASP .NET Core || .NET CORE API's
+              </div>
+
+              <!-- <div class="ag-courses-item_date-box">
+                Start:
+                <span class="ag-courses-item_date"> 04.11.2022 </span>
+              </div> -->
+            </a>
+          </div>
+
+          <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+
+              <div class="ag-courses-item_title">
+                UX/UI Web-Design&#160;+ Mobile Design
+              </div>
+<!-- 
+              <div class="ag-courses-item_date-box">
+                Start:
+                <span class="ag-courses-item_date"> 04.11.2022 </span>
+              </div> -->
+            </a>
+          </div>
+
+          <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+
+              <div class="ag-courses-item_title">
+               HTML & CSS OR  BOOTSTRAP &#160;+ JAVASCRIPT
+              </div>
+
+              <!-- <div class="ag-courses-item_date-box">
+                Start:
+                <span class="ag-courses-item_date"> 04.11.2022 </span>
+              </div> -->
+            </a>
+          </div>
+
+          <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+
+              <div class="ag-courses-item_title">PHP & LARAVEL</div>
+
+              <!-- <div class="ag-courses-item_date-box">
+                Start:
+                <span class="ag-courses-item_date"> 04.11.2022 </span>
+              </div> -->
+            </a>
+          </div>
+
+          <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+
+              <div class="ag-courses-item_title">REACTJS  & NEXTJS & REACT NATIVE</div>
+
+              <!-- <div class="ag-courses-item_date-box">
+                Start:
+                <span class="ag-courses-item_date"> 30.11.2022 </span>
+              </div> -->
+            </a>
+          </div>
+
+          <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+
+              <div class="ag-courses-item_title">
+                CONTENT WRITER
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div id="project" class="container mb-5">
+  <h1
+  style="font-size: xxx-large; font-weight: 900; color: white"
+>
+  <span style="color: skyblue;">____</span>Project Links
+</h1>
+
+<ul class="mt-3">
+  <a href="http://bhamymbc.org/"><li> http://bhamymbc.org/ </li></a>
+  <a href="https://adamseventplanning.com/"><li> https://adamseventplanning.com/ </li></a>
+  <a href="https://rrcs.one/"><li> https://rrcs.one/ </li></a>
+  <a href="https://guidingmenbyab.com/"><li> https://guidingmenbyab.com/</li></a>
+  <a href="https://dooctor.ie/"><li> https://dooctor.ie/</li></a>
+  <a href="https://sculptedcurves.net/"><li> https://sculptedcurves.net/</li></a>
+  </ul>
+</div>
+
+
+
+
+    <!-- script -->
+    <script>
+      function Menu(e) {
+        let list = document.querySelector("ul");
+        e.name === "menu"
+          ? ((e.name = "close"),
+            list.classList.add("top-[80px]"),
+            list.classList.add("opacity-100"))
+          : ((e.name = "menu"),
+            list.classList.remove("top-[80px]"),
+            list.classList.remove("opacity-100"));
+      }
+    </script>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</html>
